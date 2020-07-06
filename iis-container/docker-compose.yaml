@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  
+  iis:
+    image: iis:1.0-http
+    ports:
+      - 80:80
+    volumes:
+      - .:C:\inetpub\wwwroot
